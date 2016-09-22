@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="An awesome coming soon page designed by Orman Clark and coded by João Sardinha" />
+<meta name="keywords" content="coming, soon, page, orman, clark, john, sardine, johnsardine, download" />
+
+<title>Coming Soon Splash Page CSS3</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<style type="text/css">
+</style>
+
+</head>
+
+<body>
+
+<div id="coming-soon">
+
+<h1>Tubements</h1>
+
+<p>Read top liked comments for any video on Youtube. Try it on ... Katty Perry!</p>
+
+<form method="post">
+	<div id="subscribe">
+		<input type="text" placeholder="enter your email address..." name="ytlink">
+		<input type="submit" value="Submit">
+		<div class="clear"></div>
+	</div>
+</form>
+
+<a href="http://twitter.com/#!/JohnSardine" title="Visit JohnSardine on Twitter" class="twitter center">JohnSardine</a>
+
+</div>
+
+</body>
+</html>
